@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1686011919832" clover="3.2.0">
-  <project timestamp="1686011919833" name="All files">
-    <metrics statements="76" coveredstatements="54" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="7" elements="88" coveredelements="61" complexity="0" loc="76" ncloc="76" packages="5" files="5" classes="5"/>
+<coverage generated="1686017661410" clover="3.2.0">
+  <project timestamp="1686017661412" name="All files">
+    <metrics statements="76" coveredstatements="58" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="9" elements="88" coveredelements="67" complexity="0" loc="76" ncloc="76" packages="5" files="5" classes="5"/>
     <package name="capstoneproject-backend">
-      <metrics statements="15" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="15" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="app.js" path="C:\Users\Maggie\OneDrive\Documentos\Certificaciones\Fullstack Engineer -ITJ San DiegoU\Capstone Project\capstoneproject-backend\app.js">
-        <metrics statements="15" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <metrics statements="15" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -14,12 +14,12 @@
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
         <line num="23" count="1" type="stmt"/>
       </file>
     </package>
