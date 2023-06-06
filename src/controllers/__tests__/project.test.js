@@ -11,7 +11,7 @@ const chance = new Chance();
 //Mock dependencies
 jest.mock("../../services/products");
 
-describe("when calling update project controller", () => {
+describe("when calling update product controller", () => {
     let id, productData, updatedProduct, req, res;
 
     beforeEach(() => {
@@ -51,7 +51,7 @@ describe("when calling update project controller", () => {
       it("should call res.json with the updated product data", async () => {
         await ProductController.updateProduct(req, res);
     
-        expect(res.json).toHaveBeenCalledWith(updatedProject);
+        expect(res.json).toHaveBeenCalledWith(updatedProduct);
       });
     
       it("should call res.status with 500 when the ProductService.updateProduct service fails", async () => {

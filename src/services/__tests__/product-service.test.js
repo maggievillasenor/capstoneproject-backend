@@ -62,7 +62,7 @@ describe("when calling the product delete method", () => {
   });
 
   it("should call deleteProduct with an ID property", async () => {
-    await ProductService.deleteProject(id);
+    await ProductService.deleteProduct(id);
     expect(Product.findByIdAndDelete).toBeCalledWith(id);
   });
 });
